@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(./font/Gilroy-Bold.woff2);
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(./font/Gilroy-Medium.woff2);
+}
+
+@font-face {
+    font-family: 'Gilroy-Semibold';
+    src: url(./font/Gilroy-Semibold.woff2);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,76 +22,79 @@ a {
     text-decoration: none;
 }
 
+body {
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 .top {
+    width: 1170px;
+    height: 943px;
     padding-top: 14px;
-    padding-bottom: 32px;
+    /* padding-bottom: 96px; */
 }
 
 .header {
-    margin-bottom: 21px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;    
+    margin-bottom: 84px;
 }
 
 .header_links {
-    margin-top: 37px;
-    margin-bottom: 60px;
-    padding: 11px 14px 12px 9px;
+    width: 533px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .home_links {
     color: #F25822;
     font-family: Gilroy-SemiBold;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .nav_links {
     color: #000;
     font-family: Gilroy-Medium;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+}
+
+.top_content {   
+    height: 375px;
+    margin-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
 }
 /* Блок текста с кнопкой в блоке контента */
 .top_info {
-    margin-top: 15px;
-    margin-bottom: 27px;
+    width: 522px;
 }
 
 .title {
-    margin-top: 59px;
     margin-bottom: 17px;
     color: #000;
     font-family: Gilroy-Bold;
     font-size: 60px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .sub_title {    
     color: #888;
     font-family: Gilroy-Medium;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 /* Блок кнопки видео с текстом */
 .button_meta {
-    margin-top: 16px;
-    margin-bottom: 38px;
+    margin-top: 37px;
+    width: 302px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .top_button {
     color: #FFF;
     font-family: Gilroy-Bold;
     font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     border-radius: 50px;
     background: #F25822;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
@@ -85,15 +103,15 @@ a {
     flex-shrink: 0;
 }
 /* Текст справа от кнопки просмотра видео */
-.text_about_video {
+.top_button_video {
     color: #AAA;
     font-family: Gilroy-Bold;
     font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    border: none;
+    background: none;
 }
 
 .logos {
-    margin-top: 53px;   
+    display: flex;
+    justify-content: space-between;
 }
