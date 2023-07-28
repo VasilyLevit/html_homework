@@ -96,8 +96,6 @@ body {
 .button_meta {
     margin-top: 37px;
     width: 302px;
-    /* display: flex;
-    justify-content: space-between; */
 }
 
 .top_button {
@@ -225,7 +223,10 @@ body {
     height: 549px;
     flex-shrink: 0;
     background: #FFF;
-    /* display: flex; */
+    display: flex;   
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .services_item_center {
@@ -236,7 +237,7 @@ body {
     color: #000;
     font-family: Gilroy-Bold;
     font-size: 24px;
-    text-align: center;
+    /* text-align: center; */
 }
 .text_content {
     margin-top: 22px;
