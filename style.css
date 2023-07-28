@@ -188,6 +188,10 @@ body {
     padding-top: 92px;
     padding-bottom: 36px;
     background: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .header_services {
@@ -203,7 +207,7 @@ body {
     width: 682px;
     height: 48px;
     color: #666;
-    /* text-align: center; */
+    text-align: center;
     font-family: Gilroy-Regular;
     font-size: 16px;
     line-height: 150%; /* 24px */
@@ -221,6 +225,7 @@ body {
     height: 549px;
     flex-shrink: 0;
     background: #FFF;
+    /* display: flex; */
 }
 
 .services_item_center {
