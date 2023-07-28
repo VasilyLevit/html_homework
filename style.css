@@ -31,8 +31,10 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    /* display: flex;
-    justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .top {
@@ -190,14 +192,14 @@ body {
 
 .header_services {
     color: #000;
-    /* text-align: center; */
+    text-align: center;
     font-family: Gilroy-Bold;
     font-size: 45px;
-    /* line-height: normal; */
 }
 
 .text_services {
     margin-top: 19px;
+    margin-bottom: 54px;
     width: 682px;
     height: 48px;
     color: #666;
@@ -211,7 +213,7 @@ body {
     display: grid;
     gap: 35px;
     grid-template-columns: repeat(3, 370px);
-    /* justify-content: center; */
+    justify-content: center;
 }
 
 .services_item {
@@ -229,10 +231,27 @@ body {
     color: #000;
     font-family: Gilroy-Bold;
     font-size: 24px;
+    text-align: center;
+}
+.text_content {
+    margin-top: 22px;
+    margin-bottom: 39px;
+    color: #AAA;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+    text-align: center;
 }
 
 .button_learn {
     width: 150px;
     height: 50px;
     flex-shrink: 0;
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    border-radius: 50px;
+    background: #F25822;
+    border: none;
 }
